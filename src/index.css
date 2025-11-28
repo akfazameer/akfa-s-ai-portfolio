@@ -17,6 +17,10 @@ All colors MUST be HSL.
     --tech-gray: 220 10% 40%;
     --tech-border: 220 15% 20%;
     
+    --netlify-blue: 214 100% 55%;
+    --netlify-teal: 175 70% 50%;
+    --netlify-mint: 160 80% 65%;
+    
     --background: var(--tech-dark);
     --foreground: 0 0% 95%;
 

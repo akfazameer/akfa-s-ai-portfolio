@@ -54,6 +54,9 @@ export default {
         "neon-yellow": "hsl(var(--neon-yellow))",
         "tech-gray": "hsl(var(--tech-gray))",
         "tech-border": "hsl(var(--tech-border))",
+        "netlify-blue": "hsl(var(--netlify-blue))",
+        "netlify-teal": "hsl(var(--netlify-teal))",
+        "netlify-mint": "hsl(var(--netlify-mint))",
       },
       borderRadius: {
         lg: "var(--radius)",
