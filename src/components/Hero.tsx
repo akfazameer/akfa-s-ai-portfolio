@@ -20,9 +20,12 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mb-6"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">
-              <span className="text-foreground">Akfa</span>{" "}
-              <span className="text-primary glow-green">Zameer</span>
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight">
+              <div className="text-foreground">Hello</div>
+              <div>
+                <span className="text-foreground">I'm </span>
+                <span className="text-primary glow-green">Aakifa Zameer</span>
+              </div>
             </h1>
           </motion.div>
 

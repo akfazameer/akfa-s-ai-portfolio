@@ -4,22 +4,22 @@ const timelineData = [
   {
     week: "Week 1",
     title: "Tools & Basics",
-    items: ["Cursor", "Lovable", "Tailwind", "Component Structure"],
+    items: ["Lovable", "Supabase", "Firebase Studio", "Authentication & CRUD", "Deployment on Netlify", "UI building, reusable components"],
   },
   {
     week: "Week 2",
-    title: "Databases & Backends",
-    items: ["Firebase/Supabase", "Auth", "CRUD", "Realtime apps"],
+    title: "Modern Dev Tools",
+    items: ["Cursor AI", "Android Studio", "Deployment on Vercel", "Component automation & code generation"],
   },
   {
     week: "Week 3",
     title: "AI + Automation",
-    items: ["n8n", "Pexels API", "Google APIs", "Appointment automation", "Epify"],
+    items: ["n8n", "Pexels API", "Google APIs", "Appointment scheduling automations", "Data storage + workflows"],
   },
   {
     week: "Week 4",
-    title: "Deployment & Advanced Building",
-    items: ["Vercel", "GitHub", "API integration", "Dynamic web apps"],
+    title: "make.ai + Advanced Automation",
+    items: ["Make.com", "Google Slides + Sheets automation", "Certificate & Invoice auto-generation", "Complex workflow chaining"],
   },
 ];
 
