@@ -87,7 +87,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-netlify-blue/10 via-netlify-teal/5 to-netlify-mint/10" id="projects">
+    <section className="py-20 px-4" id="projects">
       <div className="container mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Featured <span className="text-netlify-teal">Projects</span>
+            Featured <span className="text-primary glow-green">Projects</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             A collection of AI-powered applications and automation workflows

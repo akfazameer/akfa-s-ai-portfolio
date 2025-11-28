@@ -25,9 +25,9 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
-      className="bg-card border border-netlify-blue/20 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-netlify-teal/20 transition-all"
+      className="bg-card border border-primary/20 rounded-lg overflow-hidden hover:card-glow transition-all"
     >
-      <div className="aspect-video bg-gradient-to-br from-netlify-blue/20 to-netlify-teal/20 flex items-center justify-center border-b border-netlify-blue/20">
+      <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center border-b border-primary/20">
         <img
           src={project.image} 
           alt={project.title}
@@ -45,7 +45,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           {project.tools.map((tool) => (
             <span
               key={tool}
-              className="text-xs px-3 py-1 bg-netlify-teal/10 text-netlify-teal rounded-full border border-netlify-teal/30"
+              className="text-xs px-3 py-1 bg-primary/10 text-primary rounded-full border border-primary/20"
             >
               {tool}
             </span>
@@ -53,11 +53,11 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </div>
         
         <div className="flex gap-3">
-          <Button size="sm" className="flex-1 bg-netlify-blue text-white hover:bg-netlify-blue/90">
+          <Button size="sm" className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90">
             <ExternalLink className="w-4 h-4 mr-2" />
             Live Demo
           </Button>
-          <Button size="sm" variant="outline" className="border-netlify-teal text-netlify-teal hover:bg-netlify-teal/10">
+          <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary/10">
             <Github className="w-4 h-4" />
           </Button>
         </div>
