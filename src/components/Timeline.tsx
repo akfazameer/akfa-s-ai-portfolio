@@ -13,7 +13,7 @@ const timelineData = [
   },
   {
     week: "Week 3",
-    title: "AI + Automation",
+    title: "n8n.ai + Automation",
     items: ["n8n", "Pexels API", "Google APIs", "Appointment scheduling automations", "Data storage + workflows"],
   },
   {
