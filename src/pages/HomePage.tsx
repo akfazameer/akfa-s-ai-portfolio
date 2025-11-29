@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import heroPhoto from "@/assets/hero-photo.jpeg";
 
 const slides = [
   {
@@ -36,7 +37,13 @@ const HomePage = () => {
   return (
     <div className="min-h-screen pt-16">
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-tech-darker via-tech-dark to-tech-card opacity-50" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${heroPhoto})`,
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70" />
         
         {/* Slider Navigation */}
         <button
