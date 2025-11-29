@@ -53,13 +53,17 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </div>
         
         <div className="flex gap-3">
-          <Button size="sm" className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90">
-            <ExternalLink className="w-4 h-4 mr-2" />
-            Live Demo
-          </Button>
-          <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-            <Github className="w-4 h-4" />
-          </Button>
+          <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+            <Button size="sm" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <ExternalLink className="w-4 h-4 mr-2" />
+              Live Demo
+            </Button>
+          </a>
+          <a href={project.codeUrl} target="_blank" rel="noopener noreferrer">
+            <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Github className="w-4 h-4" />
+            </Button>
+          </a>
         </div>
       </div>
     </motion.div>

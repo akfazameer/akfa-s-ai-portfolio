@@ -22,10 +22,7 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-xl font-bold">
-            <span className="text-foreground">Akfa</span>
-            <span className="text-primary glow-green">.</span>
-          </Link>
+          <div className="w-20"></div>
 
           <ul className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
