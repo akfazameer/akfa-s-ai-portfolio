@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Projects from "@/components/Projects";
-import profileImage from "@/assets/profile.png";
+import profileImage from "@/assets/hero-photo.jpeg";
 
 const ProjectsPage = () => {
   return (

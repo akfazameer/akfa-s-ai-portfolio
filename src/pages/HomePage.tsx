@@ -8,7 +8,7 @@ import heroPhoto from "@/assets/hero-photo.jpeg";
 const slides = [
   {
     title: "Hello I'm Aakifa Zameer",
-    subtitle: "AI Developer • Automation Builder • Full-Stack App Creator",
+    subtitle: " Automation Builder • Full-Stack App Creator",
     description: "I build AI-powered apps, automation workflows, and full-stack projects using Cursor AI, Lovable, Firebase, n8n automations, Next.js, and other modern tools.",
   },
   {

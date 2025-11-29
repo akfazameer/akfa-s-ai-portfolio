@@ -26,7 +26,7 @@ const projects = [
     description: "Short playable game built using React with Canvas/JS animation. Created with Cursor AI for rapid prototyping.",
     tools: ["React", "Cursor AI", "JavaScript", "Canvas"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "http://localhost:3000/",
     codeUrl: "#",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description: "Workflow that takes chat input, uses Pexels API to fetch images, and stores results in Google Drive and Google Sheets automatically.",
     tools: ["n8n", "Pexels API", "Google Sheets", "Google Drive"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "https://akfazameer.app.n8n.cloud/workflow/vP3XDKSy4lpflYtH",
     codeUrl: "#",
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     description: "Automated booking system that checks Google Calendar availability, creates events if slots are free, and stores details in Google Sheets.",
     tools: ["n8n", "Google Calendar API", "Sheets API"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "https://akfazameer.app.n8n.cloud/workflow/YaHKu5mx1vPBxNBP",
     codeUrl: "#",
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     description: "Checks Air Quality Index automatically and triggers alerts when values exceed defined threshold levels.",
     tools: ["n8n", "API", "Alerts"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "https://akifa.app.n8n.cloud/workflow/2at6wSYTWeppLrba",
     codeUrl: "#",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     description: "Uses Google Slides template, populates data from Google Sheets, and generates PDF certificates or invoices automatically.",
     tools: ["Make.com", "Google Slides", "Google Sheets"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "https://eu1.make.com/527407/scenarios/3725575/edit",
     codeUrl: "#",
   },
   {
@@ -80,7 +80,7 @@ const projects = [
     description: "Queries brand name, uses Epify Actors for Google Search and supplier extraction, saves data to Google Sheets, and sends automated emails to contacts.",
     tools: ["Make.com", "Epify Actors", "Google Sheets", "Email API"],
     image: "/placeholder.svg",
-    demoUrl: "#",
+    demoUrl: "https://eu1.make.com/527407/scenarios/3745998/edit",
     codeUrl: "#",
   },
 ];
