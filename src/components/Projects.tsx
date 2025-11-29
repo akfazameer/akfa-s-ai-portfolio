@@ -8,8 +8,8 @@ const projects = [
     description: "Full task management app with user authentication, role-based access (Admin/Member), realtime database, task assignment, and team management. Fully responsive.",
     tools: ["Lovable", "React", "Firebase", "Supabase"],
     image: "/placeholder.svg",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://classy-druid-ea2f17.netlify.app/",
+    codeUrl: "https://github.com/akfazameer/agile-canvas-prime",
   },
   {
     id: 2,
@@ -35,8 +35,8 @@ const projects = [
     description: "Real fitness analysis app using live AI API (OpenAI/Gemini/Groq). Environment variables stored securely. Deployed on Vercel with GitHub integration.",
     tools: ["Next.js", "AI API", "Vercel", "TypeScript"],
     image: "/placeholder.svg",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://fitness-dg8z99xsz-aakifas-projects.vercel.app/",
+    codeUrl: "https://github.com/akfazameer/fitness-app",
   },
   {
     id: 5,
