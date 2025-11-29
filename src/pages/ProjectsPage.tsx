@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Projects from "@/components/Projects";
+import profileImage from "@/assets/profile.png";
 
 const ProjectsPage = () => {
   return (
@@ -12,7 +13,7 @@ const ProjectsPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/placeholder.svg)',
+            backgroundImage: `url(${profileImage})`,
             filter: 'brightness(0.4)',
           }}
         />
