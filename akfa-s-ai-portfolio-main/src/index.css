@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --tech-dark: 220 20% 8%;
+    --tech-darker: 220 25% 5%;
+    --tech-card: 220 20% 12%;
+    --neon-green: 155 100% 50%;
+    --neon-green-glow: 155 100% 50%;
+    --neon-yellow: 48 100% 50%;
+    --tech-gray: 220 10% 40%;
+    --tech-border: 220 15% 20%;
+    
+    --netlify-blue: 214 100% 55%;
+    --netlify-teal: 175 70% 50%;
+    --netlify-mint: 160 80% 65%;
+    
+    --background: var(--tech-dark);
+    --foreground: 0 0% 95%;
+
+    --card: var(--tech-card);
+    --card-foreground: 0 0% 95%;
+
+    --popover: var(--tech-darker);
+    --popover-foreground: 0 0% 95%;
+
+    --primary: var(--neon-green);
+    --primary-foreground: var(--tech-darker);
+
+    --secondary: var(--neon-yellow);
+    --secondary-foreground: var(--tech-darker);
+
+    --muted: 220 15% 20%;
+    --muted-foreground: var(--tech-gray);
+
+    --accent: var(--neon-green);
+    --accent-foreground: var(--tech-darker);
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: var(--tech-border);
+    --input: var(--tech-border);
+    --ring: var(--neon-green);
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .glow-green {
+    text-shadow: 0 0 20px hsl(var(--neon-green) / 0.5);
+  }
+  
+  .glow-yellow {
+    text-shadow: 0 0 20px hsl(var(--neon-yellow) / 0.5);
+  }
+  
+  .card-glow {
+    box-shadow: 0 0 30px hsl(var(--neon-green) / 0.1);
+  }
+  
+  .gradient-green {
+    background: linear-gradient(135deg, hsl(var(--neon-green)) 0%, hsl(155 100% 35%) 100%);
+  }
+  
+  .gradient-tech {
+    background: linear-gradient(135deg, hsl(var(--tech-card)) 0%, hsl(var(--tech-darker)) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
