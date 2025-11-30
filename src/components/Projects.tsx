@@ -7,7 +7,7 @@ const projects = [
     title: "Lovable Team Task Management App",
     description: "Full task management app with user authentication, role-based access (Admin/Member), realtime database, task assignment, and team management. Fully responsive.",
     tools: ["Lovable", "React", "Firebase", "Supabase"],
-    image: "/team.png",
+    image: "/placeholder.svg",
     demoUrl: "https://classy-druid-ea2f17.netlify.app/",
     codeUrl: "https://github.com/akfazameer/agile-canvas-prime",
   },
