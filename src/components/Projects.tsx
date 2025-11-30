@@ -17,8 +17,8 @@ const projects = [
     description: "Functional Kotlin weather app fetching real-time data from OpenWeather API. Shows humidity, temperature, wind speed, and custom 'Outdoor Friendliness Score' algorithm.",
     tools: ["Kotlin", "Cursor AI", "Weather API"],
     image: "/placeholder.svg",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://drive.google.com/file/d/1dSLFdKuRz-gjHAtfkgUUvIJVfyLIbq6-/view?usp=sharing",
+    codeUrl: "https://github.com/akfazameer/weather",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     tools: ["React", "Cursor AI", "JavaScript", "Canvas"],
     image: "/placeholder.svg",
     demoUrl: "http://localhost:3000/",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/flappy",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const projects = [
     tools: ["n8n", "Google Calendar API", "Sheets API"],
     image: "/placeholder.svg",
     demoUrl: "https://akfazameer.app.n8n.cloud/workflow/YaHKu5mx1vPBxNBP",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/fitness-app",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const projects = [
     tools: ["n8n", "API", "Alerts"],
     image: "/placeholder.svg",
     demoUrl: "https://akifa.app.n8n.cloud/workflow/2at6wSYTWeppLrba",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/fitness-app",
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const projects = [
     tools: ["Make.com", "Epify Actors", "Google Sheets", "Email API"],
     image: "/placeholder.svg",
     demoUrl: "https://eu1.make.com/527407/scenarios/3745998/edit",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/fitness-app",
   },
 ];
 
