@@ -45,7 +45,7 @@ const projects = [
     tools: ["n8n", "Pexels API", "Google Sheets", "Google Drive"],
     image: "/placeholder.svg",
     demoUrl: "https://akfazameer.app.n8n.cloud/workflow/vP3XDKSy4lpflYtH",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/flappy",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const projects = [
     tools: ["Make.com", "Google Slides", "Google Sheets"],
     image: "/placeholder.svg",
     demoUrl: "https://eu1.make.com/527407/scenarios/3725575/edit",
-    codeUrl: "#",
+    codeUrl: "https://github.com/akfazameer/flappy",
   },
   {
     id: 9,
