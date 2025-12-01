@@ -45,7 +45,7 @@ const projects = [
     tools: ["n8n", "Pexels API", "Google Sheets", "Google Drive"],
     image: "/pexel.png",
     demoUrl: "https://akfazameer.app.n8n.cloud/workflow/vP3XDKSy4lpflYtH",
-    codeUrl: "https://github.com/akfazameer/flappy",
+    codeUrl: "https://github.com/akfazameer/pexels",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const projects = [
     tools: ["n8n", "Google Calendar API", "Sheets API"],
     image: "/appointment.png",
     demoUrl: "https://akfazameer.app.n8n.cloud/workflow/YaHKu5mx1vPBxNBP",
-    codeUrl: "https://github.com/akfazameer/fitness-app",
+    codeUrl: "https://github.com/akfazameer/Appointment_booking",
   },
   {
     id: 7,
