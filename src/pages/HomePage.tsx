@@ -120,7 +120,7 @@ const HomePage = () => {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="flex gap-6 justify-center"
             >
-              <a href="https://github.com/akfazameer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/akfazameer/akfa-s-ai-portfolio" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-6 h-6" />
               </a>
               <a href="https://www.linkedin.com/in/aakifa-zameer-55143b354/" className="text-muted-foreground hover:text-primary transition-colors">
