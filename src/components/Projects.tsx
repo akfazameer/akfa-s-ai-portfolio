@@ -63,7 +63,7 @@ const projects = [
     tools: ["n8n", "API", "Alerts"],
     image: "/aqi.png",
     demoUrl: "https://akifa.app.n8n.cloud/workflow/2at6wSYTWeppLrba",
-    codeUrl: "https://github.com/akfazameer/fitness-app",
+    codeUrl: "https://github.com/akfazameer/aqi",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const projects = [
     tools: ["Make.com", "Google Slides", "Google Sheets"],
     image: "/certificate.png",
     demoUrl: "https://eu1.make.com/527407/scenarios/3725575/edit",
-    codeUrl: "https://github.com/akfazameer/flappy",
+    codeUrl: "https://github.com/akfazameer/certificate",
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ const projects = [
     tools: ["Make.com", "Epify Actors", "Google Sheets", "Email API"],
     image: "/brand.png",
     demoUrl: "https://eu1.make.com/527407/scenarios/3745998/edit",
-    codeUrl: "https://github.com/akfazameer/fitness-app",
+    codeUrl: "https://github.com/akfazameer/brand_apify",
   },
 ];
 
