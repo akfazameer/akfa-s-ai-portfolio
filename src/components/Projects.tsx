@@ -26,7 +26,7 @@ const projects = [
     description: "Short playable game built using React with Canvas/JS animation. Created with Cursor AI for rapid prototyping.",
     tools: ["React", "Cursor AI", "JavaScript", "Canvas"],
     image: "/flappy.png",
-    demoUrl: "http://localhost:3000/",
+    demoUrl: "/flappy.webm",
     codeUrl: "https://github.com/akfazameer/flappy",
   },
   {
