@@ -68,35 +68,36 @@ const Navigation = () => {
       {/* Mobile menu overlay */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 bg-background/95 backdrop-blur-lg md:hidden"
-            onClick={closeMenu}
-          >
+          <>
             <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-40 bg-black/50 md:hidden"
+              onClick={closeMenu}
+            />
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
-              className="flex flex-col items-center justify-center h-full gap-8"
+              className="fixed top-16 right-4 z-50 bg-background border border-border rounded-lg shadow-lg p-4 min-w-[160px] md:hidden"
               onClick={(e) => e.stopPropagation()}
             >
               {navItems.map((item, index) => (
                 <motion.div
                   key={item.path}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.05 }}
                 >
                   <Link
                     to={item.path}
                     onClick={closeMenu}
-                    className={`text-2xl font-medium transition-colors ${
+                    className={`block py-2 px-3 rounded-md text-base font-medium transition-colors ${
                       location.pathname === item.path
-                        ? "text-primary"
-                        : "text-muted-foreground hover:text-foreground"
+                        ? "text-primary bg-primary/10"
+                        : "text-muted-foreground hover:text-foreground hover:bg-muted"
                     }`}
                   >
                     {item.name}
@@ -104,7 +105,7 @@ const Navigation = () => {
                 </motion.div>
               ))}
             </motion.div>
-          </motion.div>
+          </>
         )}
       </AnimatePresence>
     </>
